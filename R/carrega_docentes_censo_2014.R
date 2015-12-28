@@ -3,6 +3,9 @@
 # Carrega e seleciona os professores de Física
 ########################################################
 
+#Carrega bibliotecas
+library("repmis")
+
 # Carrega e seleciona os dados
 # Primeiramente por professores ativos na sala de aula e posteriormente por professores que lecionam Física
 
