@@ -1,0 +1,35 @@
+---
+title: "Formação Inicial de Professores de Física"
+author: "André Rodrigues"
+date: "07/02/2016"
+output:
+  html_document:
+    keep_md: yes
+    theme: spacelab
+---
+
+## Formação dos professores de Física
+
+Considerando a totalidade dos professores que lecionam Física, podemos ver que apenas `r form.s[1,2]` (`r form.s[1,3]`%) possuem licenciatura em Física. A formação do professor de Física é claramente uma questão importante para compreender um o baixo desempenho dos estudantes. Atualmente o país conta com `r sum(form.s$Número)` professores que lecionam a disciplina de Física. Atualmente o maior grupo é formado pelos professores com licenciatura em Matemática compondo `r form.s[3,2]` (`r form.s[3,3]`%) dos professores. A tabela (tabela 1) abaixo possibilita uma melhor visualização sintética dessa questão em âmbito nacional.
+
+```{r, tabela1, echo=FALSE,}
+kable(form.s, 
+      caption="Tabela 1. Distribuição dos professores de Física por formação inicial.", 
+      row.names=F,
+      booktabs=TRUE)
+```
+
+Quando observamos essa distribuição por estado vemos que em diversos estados a situação é ainda mais crítica, possuindo um número de licenciados muito abaixo da média nacional.
+```{r, grafico1, echo=FALSE,}
+pform
+```
+
+Gráfico 1. Distribuição percentual de professores por formação inicial
+
+Diversos estados fazem uso ainda mais intenso de professores formados em Matemática e mesmo estados que concentram o maior número de professores, como é o caso do estado da Bahia com `r sum(form.es[UF=="BA", N])` professores de Física, tem um número de licenciados em Física muito abaixo da média nacional com apenas `r form.es[UF=="BA" & TP_FORM=="Lic em Física", Proc]` %. A presença dos licenciados em Física fica mais evidente no gráfico 2, em que destacamos apenas os professores que tem ou não licenciatura em Física.
+
+```{r, grafico2, echo=FALSE,}
+pform1
+```
+
+Gráfico 2. Distribuição percentual de professores por formação inicial
