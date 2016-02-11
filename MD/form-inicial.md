@@ -44,43 +44,73 @@ Além da formação inicial do professor de Física é importante ter clareza fo
 A formação do corpo docente em nível de pós-graduação está dentre as prioridades educacionais. A maior parte dos professores de Física não possuem nenhum tipo de formação em pós-graduação. Cerca de 42.65% dos professores possuem esse tipo de formação. A tabela a seguir mostra a distribuição dos professores por formação inicial e por formação em pós-graduação. Nesse caso somam-se aqueles que possuem `especialização`, `mestrado` ou `doutorado`. 
 
 
-----------------------------------------------------------------------
-         &nbsp;\            Possui pós-graduação\   &nbsp;\   &nbsp;\ 
-     Formação inicial                 0                1       Total  
--------------------------- ----------------------- --------- ---------
-   **Lic em Física**\             &nbsp;\          &nbsp;\   &nbsp;\  
-           N\                      3305\            5327\      8632\  
-        Column(%)                  17.95%           21.51%            
++----------------------------+-------------------------+-----------+
+|          &nbsp;\           |  Possui pós-graduação\  |  &nbsp;\  |
+|      Formação inicial      |           sim           |    não    |
++============================+=========================+===========+
+|    **Lic em Física**\      |        &nbsp;\          | &nbsp;\   |
+|            N\              |         3305\           |  5327\    |
+|         Column(%)          |         17.95%          |  21.51%   |
++----------------------------+-------------------------+-----------+
+|   **Lic em Ciências**\     |        &nbsp;\          | &nbsp;\   |
+|            N\              |         1135\           |  1376\    |
+|         Column(%)          |          6.16%          |   5.56%   |
++----------------------------+-------------------------+-----------+
+|  **Lic em Matemática**\    |        &nbsp;\          | &nbsp;\   |
+|            N\              |         5711\           |  7814\    |
+|         Column(%)          |         31.02%          |  31.56%   |
++----------------------------+-------------------------+-----------+
+| **Outras licenciaturas**\  |        &nbsp;\          | &nbsp;\   |
+|            N\              |         3640\           |  5251\    |
+|         Column(%)          |         19.77%          |  21.21%   |
++----------------------------+-------------------------+-----------+
+|      **Pedagogia**\        |        &nbsp;\          | &nbsp;\   |
+|            N\              |         834\            |  1155\    |
+|         Column(%)          |          4.53%          |   4.66%   |
++----------------------------+-------------------------+-----------+
+|    **Outros cursos**\      |        &nbsp;\          | &nbsp;\   |
+|            N\              |         1296\           |  2732\    |
+|         Column(%)          |          7.04%          |  11.03%   |
++----------------------------+-------------------------+-----------+
+|      **Estudante**\        |        &nbsp;\          | &nbsp;\   |
+|            N\              |         2491\           |  1108\    |
+|         Column(%)          |         13.53%          |   4.47%   |
++----------------------------+-------------------------+-----------+
+|           Total\           |         18412\          |  24763\   |
+|                            |         42.65%          |  57.35%   |
++----------------------------+-------------------------+-----------+
 
-  **Lic em Ciências**\            &nbsp;\          &nbsp;\   &nbsp;\  
-           N\                      1135\            1376\      2511\  
-        Column(%)                   6.16%            5.56%            
+Table: Tabela 2. Distribuição dos professores de Física por formação inicial e cursos de pós-graduação. (continued below)
 
- **Lic em Matemática**\           &nbsp;\          &nbsp;\   &nbsp;\  
-           N\                      5711\            7814\     13525\  
-        Column(%)                  31.02%           31.56%            
+ 
 
-**Outras licenciaturas**\         &nbsp;\          &nbsp;\   &nbsp;\  
-           N\                      3640\            5251\      8891\  
-        Column(%)                  19.77%           21.21%            
-
-     **Pedagogia**\               &nbsp;\          &nbsp;\   &nbsp;\  
-           N\                      834\             1155\      1989\  
-        Column(%)                   4.53%            4.66%            
-
-   **Outros cursos**\             &nbsp;\          &nbsp;\   &nbsp;\  
-           N\                      1296\            2732\      4028\  
-        Column(%)                   7.04%           11.03%            
-
-     **Estudante**\               &nbsp;\          &nbsp;\   &nbsp;\  
-           N\                      2491\            1108\      3599\  
-        Column(%)                  13.53%            4.47%            
-
-          Total\                   18412\           24763\    43175\  
-                                   42.65%           57.35%            
-----------------------------------------------------------------------
-
-Table: Tabela 2. Distribuição dos professores de Física por formação inicial e cursos de pós-graduação.
++-----------+
+|  &nbsp;\  |
+|   Total   |
++===========+
+| &nbsp;\   |
+|   8632\   |
++-----------+
+| &nbsp;\   |
+|   2511\   |
++-----------+
+| &nbsp;\   |
+|  13525\   |
++-----------+
+| &nbsp;\   |
+|   8891\   |
++-----------+
+| &nbsp;\   |
+|   1989\   |
++-----------+
+| &nbsp;\   |
+|   4028\   |
++-----------+
+| &nbsp;\   |
+|   3599\   |
++-----------+
+|  43175\   |
++-----------+
 
 > ###### Fonte: MEC/INPE - Censo Escolar/2014
 
