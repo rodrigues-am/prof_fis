@@ -46,7 +46,7 @@ form15<- tbl_df(join (form15, uf, by="FK_COD_ESTADO")) # junta com variaveis do 
 
 # Junta dados de formação inicial com a df original doc15
 doc15 <- join (doc15, 
-              select(form15, CO_PESSOA_FISICA, TP_FORM, UF,TP_SITUACAO_CURSO, CO_CURSO, CO_CURSO, IN_LICENCIATURA,
+              select(form15, CO_PESSOA_FISICA, TP_FORM, UF, REG,ESTADO ,TP_SITUACAO_CURSO, CO_CURSO, CO_CURSO, IN_LICENCIATURA,
                      IN_COM_PEDAGOGICA, NU_ANO_INICIO, NU_ANO_CONCLUSAO, TP_TIPO_IES, NO_IES_CURSO, CO_IES), 
               by="CO_PESSOA_FISICA")
 
